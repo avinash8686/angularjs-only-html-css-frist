@@ -1,0 +1,44 @@
+@media screen and (min-width: 993px){
+  .one{
+    width:50% !important;
+  }
+  .two{
+    width:50% !important;
+  }
+  .three{
+    width:30% !important;
+  }
+  .four{
+    width:70% !important;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px){
+  .one{
+    width:100% !important;
+  }
+  .two{
+    width:33.33% !important;
+  }
+  .three{
+    width:33.33% !important;
+  }
+  .four{
+    width:33.33% !important;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .one{
+    width:100% !important;
+  }
+  .two{
+    width:100% !important;
+  }
+  .three{
+    width:100% !important;
+  }
+  .four{
+    width:100% !important;
+  }
+}

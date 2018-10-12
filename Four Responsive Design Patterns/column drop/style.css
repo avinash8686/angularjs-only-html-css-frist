@@ -1,0 +1,35 @@
+@media screen and (min-width: 993px){
+  .one{
+    width:25% !important;
+  }
+  .two{
+    width:50% !important;
+  }
+  .three{
+    width:25% !important;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px){
+  .one{
+    width:40% !important;
+  }
+  .two{
+    width:60% !important;
+  }
+  .three{
+    width:100% !important;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .one{
+    width:100% !important;
+  }
+  .two{
+    width:100% !important;
+  }
+  .three{
+    width:100% !important;
+  }
+}
